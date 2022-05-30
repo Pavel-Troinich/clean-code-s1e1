@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.header img {
+.header-img {
   width: 100%;
 }
 
@@ -44,22 +44,21 @@ body {
   display: flex;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0;
 }
 
-li,
-h3 {
+/* li {
   list-style: none;
-}
+} */
 
 input,
-button {
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0;
   color: #888;
@@ -69,12 +68,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3A3a;
 }
 
 /* Heading */
-h3 {
+.part {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -141,18 +140,18 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.img-del-button {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.img-del-button:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
